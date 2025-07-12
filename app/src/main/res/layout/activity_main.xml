@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/game"
+        android:fontFamily="serif"
+        android:textSize="30sp"
+        android:gravity="center_horizontal"
+        android:layout_margin="40dp"/>
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="3"
+        android:layout_margin="100dp"
+        android:layout_gravity="center_horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/button1"
+            android:onClick="Check"
+            android:backgroundTint="@color/col3"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/button2"
+            android:onClick="Check"
+            android:backgroundTint="@color/col3"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/button3"
+            android:onClick="Check"
+            android:backgroundTint="@color/col3"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/button4"
+            android:onClick="Check"
+            android:backgroundTint="@color/col3"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/button5"
+            android:onClick="Check"
+            android:backgroundTint="@color/col3"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/button6"
+            android:onClick="Check"
+            android:backgroundTint="@color/col3"/>
+        
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/button7"
+            android:onClick="Check"
+            android:backgroundTint="@color/col3"/>
+        
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/button8"
+            android:onClick="Check"
+            android:backgroundTint="@color/col3"/>
+        
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/button9"
+            android:onClick="Check"
+            android:backgroundTint="@color/col3"/>
+        
+
+    </GridLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/reset"
+        android:onClick="Button10"
+        android:id="@+id/button10"
+        android:backgroundTint="#0091EA"/>
+
+
+
+</LinearLayout>
